@@ -30,7 +30,7 @@ When using implicit assignment, any future attemmpt to assign the same variable 
 
 ```TypeScript
 let name = "Roland"; // inferred to type string
-firstName = 20; // attempts to re-assign the value to a different type
+name = 20; // attempts to re-assign the value to a different type
 ```
 
 ### Disabling Type checking
